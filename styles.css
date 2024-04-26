@@ -3,3 +3,6 @@ body {
     background: lightblue;
     text-align: center;
 }
+p {
+    margin : 0;
+}
