@@ -11,9 +11,10 @@ body {
 
     list-style: none;
     margin: 0; 
+    background: deepskyblue;
 }
 
-.navigation a:hover {
+.container a:hover {
     background: #1565C0;
   }
 
@@ -24,7 +25,7 @@ body {
     color: white;
 }
 
-  .item {
+.item {
     flex-grow: 4;
     flex-shrink: 2;
     flex-basis: auto;
