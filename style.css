@@ -3,3 +3,9 @@ body {
     background: lightblue;
     text-align: center;
 }
+.container {
+    display: flex;
+    flex-flow: column wrap;
+    flex-grow: 4;
+    flex-shrink: 2;
+  }
