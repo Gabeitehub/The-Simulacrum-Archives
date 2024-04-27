@@ -6,6 +6,10 @@ body {
 .container {
     display: flex;
     flex-flow: column wrap;
+    justify-content: space-around;
+  }
+  .item {
     flex-grow: 4;
     flex-shrink: 2;
+    flex-basis: auto;
   }
