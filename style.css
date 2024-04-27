@@ -3,6 +3,7 @@ body {
     background: lightblue;
     text-align: center;
 }
+
 .container {
     display: flex;
     flex-flow: column wrap;
@@ -11,6 +12,14 @@ body {
     list-style: none;
     margin: 0; 
 }
+
+.container a {
+    text-decoration: none;
+    display: block;
+    padding: 1em;
+    color: white;
+}
+
   .item {
     flex-grow: 4;
     flex-shrink: 2;
