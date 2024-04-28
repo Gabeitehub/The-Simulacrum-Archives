@@ -33,3 +33,7 @@ body {
   flex: 1 auto;
   order: 3
 }
+.side2 {
+  flex: 1 auto;
+  order: 4
+}
