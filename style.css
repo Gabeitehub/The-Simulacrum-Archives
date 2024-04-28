@@ -9,6 +9,11 @@ body {
     justify-content: space-around;
 }
 
+.flexUp > * {
+  background-color: #cc00ff;
+  flex: 1 100%;
+}
+
 .flexUp > div {
   background-color: #94cdff;
   margin: 10px;
@@ -16,12 +21,15 @@ body {
   font-size: 30px;
 }
 
-.sides {
-  flex-grow: 1;
+.side1 {
+  flex: 1 auto;
+  order: 1
 }
 .mid {
-  flex-grow: 4;
+  flex: 4 0px;
+  order: 2
 }
-.full {
-  flex-grow: 1;
+.side2 {
+  flex: 1 auto;
+  order: 3
 }
