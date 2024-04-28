@@ -6,6 +6,7 @@ body {
 
 .flexUp {
     display: flex;
+    justify-content: space-around;
 }
 
 .flexUp > div {
