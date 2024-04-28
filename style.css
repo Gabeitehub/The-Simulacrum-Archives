@@ -22,7 +22,7 @@ body {
 }
 
 .full {
-  background-color: #608cc3;
+  background-color: #383c67;
   color: #fffebb;
 }
 
@@ -34,7 +34,7 @@ body {
 }
 .mid {
   background-color: #fffed5;
-  flex: 4 0px;
+  flex: 8 0px;
   order: 2;
 }
 .side2 {
@@ -46,6 +46,6 @@ body {
 
 .footer {
   order: 4;
-  background-color: #608cc3;
+  background-color: #383c67;
   color: #fffebb;
 }
