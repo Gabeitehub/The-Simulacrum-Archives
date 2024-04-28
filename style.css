@@ -49,3 +49,8 @@ body {
   background-color: #383c67;
   color: #fffebb;
 }
+
+a:visited { text-decoration: none; color: #fffebb; }
+a:hover { text-decoration: none; color: #fffebb; }
+a:focus { text-decoration: none; color: #fffebb; }
+a:hover, a:active { text-decoration: none; color: #fffebb; }
