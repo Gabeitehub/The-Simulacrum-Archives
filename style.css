@@ -36,6 +36,10 @@ body {
   background-color: #fffed5;
   flex: 8 0px;
   order: 2;
+  font-size: 1em;
+  margin-top: 29.124px;
+  text-align: center;
+  font-weight: bold;
 }
 .side2 {
   background-color: #383c67;
