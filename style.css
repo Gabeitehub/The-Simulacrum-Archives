@@ -20,5 +20,8 @@ body {
   flex-grow: 1;
 }
 .mid {
-  flex-grow: 3;
+  flex-grow: 4;
+}
+.full {
+  flex-grow: 1;
 }
