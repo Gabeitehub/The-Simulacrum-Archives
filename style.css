@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    background: lightblue;
+    background-color: #fffeb9;
     text-align: center;
 }
 
@@ -11,29 +11,36 @@ body {
 }
 
 .flexUp > * {
-  background-color: #cc00ff;
   flex: 1 100%;
+  color: #99acb9;
 }
 
 .flexUp > div {
-  background-color: #94cdff;
   margin: 10px;
   padding: 20px;
   font-size: 30px;
 }
 
+.full {
+  background-color: #608cc3;
+}
+
 .side1 {
+  background-color: #383c67;
   flex: 1 auto;
   order: 1
 }
 .mid {
+  background-color: #fffed5;
   flex: 4 0px;
   order: 2
 }
 .side2 {
+  background-color: #383c67;
   flex: 1 auto;
   order: 3
 }
+
 .footer {
   order: 4
 }
