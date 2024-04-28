@@ -14,5 +14,11 @@ body {
   margin: 10px;
   padding: 20px;
   font-size: 30px;
-  
+}
+
+.sides {
+  flex-grow: 1;
+}
+.mid {
+  flex-grow: 3;
 }
