@@ -10,14 +10,8 @@ body {
 }
 
 .flexUp > div {
-  background-color: #a1ff94;
+  background-color: #a294ff;
   margin: 10px;
   padding: 20px;
   font-size: 30px;
-}
-
-.item {
-    flex-grow: 4;
-    flex-shrink: 2;
-    flex-basis: auto;
 }
