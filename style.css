@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    background-color: #fffeb9;
+    background-color: #f0ee9f;
     text-align: center;
 }
 
@@ -23,24 +23,27 @@ body {
 
 .full {
   background-color: #608cc3;
+  opacity: 0.5;
 }
 
 .side1 {
   background-color: #383c67;
   flex: 1 auto;
-  order: 1
+  order: 1;
+  color: #99acb9;
 }
 .mid {
   background-color: #fffed5;
   flex: 4 0px;
-  order: 2
+  order: 2;
 }
 .side2 {
   background-color: #383c67;
   flex: 1 auto;
-  order: 3
+  order: 3;
+  color: #99acb9;
 }
 
 .footer {
-  order: 4
+  order: 4;
 }
