@@ -56,5 +56,5 @@ a:focus { text-decoration: none; color: #fffebb; }
 a:hover, a:active { text-decoration: none; color: #fffebb; }
 
 .left{
-  justify-content: left;
+  text-align: left;
 }
