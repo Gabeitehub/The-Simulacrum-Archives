@@ -1,6 +1,61 @@
+@font-face {
+  font-family: 'Libre Baskerville';
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: local("Libre Baskerville Italic"),local("LibreBaskerville-Italic"),url("../assets/fonts/libre_baskerville-latin_ext-italic-400.woff2") format("woff2");
+  unicode-range: U+0100-024F,U+0259,U+1E00-1EFF,U+2020,U+20A0-20AB,U+20AD-20CF,U+2113,U+2C60-2C7F,U+A720-A7FF
+}
+
+@font-face {
+  font-family: 'Libre Baskerville';
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: local("Libre Baskerville Italic"),local("LibreBaskerville-Italic"),url("../assets/fonts/libre_baskerville-latin-italic-400.woff2") format("woff2");
+  unicode-range: U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD
+}
+
+@font-face {
+  font-family: 'Libre Baskerville';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local("Libre Baskerville"),local("LibreBaskerville-Regular"),url("../assets/fonts/libre_baskerville-latin_ext-400.woff2") format("woff2");
+  unicode-range: U+0100-024F,U+0259,U+1E00-1EFF,U+2020,U+20A0-20AB,U+20AD-20CF,U+2113,U+2C60-2C7F,U+A720-A7FF
+}
+
+@font-face {
+  font-family: 'Libre Baskerville';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local("Libre Baskerville"),local("LibreBaskerville-Regular"),url("../assets/fonts/libre_baskerville-latin-400.woff2") format("woff2");
+  unicode-range: U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD
+}
+
+@font-face {
+  font-family: 'Libre Baskerville';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: local("Libre Baskerville Bold"),local("LibreBaskerville-Bold"),url("../assets/fonts/libre_baskerville-latin_ext-700.woff2") format("woff2");
+  unicode-range: U+0100-024F,U+0259,U+1E00-1EFF,U+2020,U+20A0-20AB,U+20AD-20CF,U+2113,U+2C60-2C7F,U+A720-A7FF
+}
+
+@font-face {
+  font-family: 'Libre Baskerville';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: local("Libre Baskerville Bold"),local("LibreBaskerville-Bold"),url("../assets/fonts/libre_baskerville-latin-700.woff2") format("woff2");
+  unicode-range: U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD
+}
+
+
 body {
     margin: 0;
-    background-color: #f0ee9f;
+    background-color: #f3efdf;
     text-align: center;
 }
 
@@ -15,15 +70,10 @@ body {
   color: #71809b;
 }
 
-.flexUp > div {
-  margin: 10px;
-  padding: 20px;
-  font-size: 30px;
-}
-
 .full {
+  border-top: 0.5em solid #afc4db;
   background-color: #383c67;
-  color: #fffebb;
+  color: #afc4db;
 }
 
 .side1 {
@@ -33,13 +83,14 @@ body {
   color: #ffffff;
 }
 .mid {
-  background-color: #fffed5;
+  font-family: "Libre Baskerville",Baskerville,"Book Antiqua",Georgia,Times,serif;
+  background-color: #f3efdf;
   flex: 8 0px;
   order: 2;
-  font-size: 1em;
-  margin-top: 29.124px;
-  text-align: center;
-  font-weight: bold;
+  font-size: 1.25em;
+  padding: 0 30%;
+  text-align: left;
+  font-weight: normal;
 }
 .side2 {
   background-color: #383c67;
@@ -52,9 +103,34 @@ body {
   order: 4;
   background-color: #383c67;
   color: #fffebb;
+  position: relative;
+  margin-top: -180px;
 }
 
 a:visited { text-decoration: none; color: #fffebb; }
 a:hover { text-decoration: none; color: #fffebb; }
 a:focus { text-decoration: none; color: #fffebb; }
 a:hover, a:active { text-decoration: none; color: #fffebb; }
+
+.center {
+  text-align: center;
+}
+#undark {
+  opacity: 0.66;
+}
+h2, h3, h4, h5 {
+  line-height: 0.5em;
+  text-align: center;
+}
+#lighter{
+  background-color: #e3edf8;
+}
+#lastOne{
+  padding-bottom: 180px;
+}
+.straightFont{
+  font-family: SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;
+}
+.lastP {
+  padding-bottom: 1.5em;
+}
